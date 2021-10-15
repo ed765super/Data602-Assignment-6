@@ -1,5 +1,5 @@
 # DATA602 Model Evaluation
-## Data = YGO_Cards_v2.csv
+## Data = pima_indian_data.csv
 
 ## Project Description:
 The following will be done to the Pima Indian dataset
