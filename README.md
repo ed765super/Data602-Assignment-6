@@ -1,2 +1,17 @@
-# Data602-Assignment-6
-This is the repo for Assignment 6: Model Evaluation
+# DATA602 Model Evaluation
+## Data = YGO_Cards_v2.csv
+
+## Project Description:
+
+
+## EDA Findings
+
+
+
+## Regression Results
+
+
+## Dataset predictions
+
+
+## Future plans
