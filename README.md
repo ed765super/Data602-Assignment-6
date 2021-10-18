@@ -15,13 +15,11 @@ The following will be done to the Pima Indian dataset
 All of this will be done while im predicting the class column
 
 ## EDA Findings
-
+This is a solid 768 row × 9 column dataset with no missing values. Only a few of those columns have uniform distributions wwhile the rest are skewed in some way shape or form. All of the data is numerical with a small variatiion of scale. There is no notable multicoliniarity in this dataset.
 
 
 ## Regression Results
-
-
-## Dataset predictions
-
+Cross Validation alone with no grid search produced a higher recall than either solvers that utilized grid search. LibLinear and Newton-cg chose the same regression strength and number of components. This is understandable as the dataset is rather small and the smaller the dataset the better the grid search cross validation is.
 
 ## Future plans
+I would research all the other metrics available and  each one's subclasses. Each of the submetrics seemed to have small variations in how they're calculated and what they take into account. Perhaps by using a more specific form of recall I could find more useful information to evaluate the model.
