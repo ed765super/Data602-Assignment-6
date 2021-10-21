@@ -19,7 +19,7 @@ This is a solid 768 row × 9 column dataset with no missing values. Only a few o
 
 
 ## Regression Results
-Cross Validation alone with no grid search produced a higher recall than either solvers that utilized grid search. LibLinear and Newton-cg chose the same regression strength and number of components. This is understandable as the dataset is rather small and the smaller the dataset the better the grid search cross validation is.
+Cross Validation alone with no grid search was able recall less on average than either of the parameters were able to once I utilized grid search. LibLinear and Newton-cg chose the same regression strength and number of components. This is understandable as the dataset is rather small and the smaller the dataset the better the grid search cross validation is.
 
 ## Future plans
 I would research all the other metrics available and  each one's subclasses. Each of the submetrics seemed to have small variations in how they're calculated and what they take into account. Perhaps by using a more specific form of recall I could find more useful information to evaluate the model.
